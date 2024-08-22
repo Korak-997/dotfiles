@@ -108,31 +108,6 @@
           "style": "powerline",
           "foreground": "#81ff91",
           "template": "<> </>"
-        },
-        {
-          "background": "#cecece",
-          "foreground": "#4b4b4b",
-          "leading_diamond": "\ue0b2",
-          "trailing_diamond": "\ue0b0",
-          "properties": {
-            "style": "austin",
-            "threshold": 150
-          },
-          "style": "diamond",
-          "template": "⌛  {{ .FormattedMs }} ",
-          "type": "executiontime"
-        },
-        {
-          "background": "#cecece",
-          "foreground": "#4b4b4b",
-          "leading_diamond": "\ue0b2",
-          "properties": {
-            "time_format": "15:04:05"
-          },
-          "style": "diamond",
-          "template": "⏰  {{ .CurrentDate | date .Format }} ",
-          "trailing_diamond": "\ue0b0",
-          "type": "time"
         }
       ],
       "type": "prompt"
