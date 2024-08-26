@@ -6,3 +6,9 @@ function gush {
     git commit -m "$commitMessage"
     git push
 }
+
+function gcom{
+    $commitMessage = $args[0]
+    git add .
+    git commit -m "$commitMessage"
+}
